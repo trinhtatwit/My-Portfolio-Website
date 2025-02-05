@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Personal Porfolio Website</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/bcf6d91909.js" crossorigin="anonymous"></script>
+    </head>
+
+    <body>
+        <div id="header">
+            <div class="container">
+                <nav>
+                    <img src="images/Daniel-designstyle-smoothie-m.png" width="200" height="150">
+                    <ul>
+                        <li><a href="#">Home</a></li> 
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Service</a></li>
+                        <li><a href="#">Porfolio</a></li>
+                        <li><a href="#">Contact</a></li>
+                        <i class="fas fa-times"></i>
+                    </ul>
+                    <i class="fas fa-bars"></i>
+                </nav>
+                <div class="header-text">
+                    <p>UI/UX Designer</p>
+                    <h1>Hi, I'm <span>Daniel Trinh</span><br>From Boston, Massachusetts, USA</h1>
+                </div>
+            </div>
+        </div>
+<!-------------------------About------------------------->   
+        <div id="about">
+           <div class="container">
+                <div class="row">
+                    <div class="about-col-1">
+                        <img src="images/user.JPG" >
+                    </div>
+                    <div class="about-col-2">
+                        <h1 class="sub-title">About me</h1>
+                        <p>
+                            My name is Daniel Trinh. I graduated from Wentworth Institiute of 
+                            Technology with a Bachelor's degree in Computer Science. Currently, 
+                            I am pursuing a Master's program at Boston University in Data Science. Also,
+                            I am working as a freelance web developer for anyone who need to build and 
+                            maintenance websites. Moreover, I can build application for both mobile and 
+                            desktop.
+                        </p>
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')"> Skills </p>
+                            <p class="tab-links" onclick="opentab('experience')"> Experience </p>
+                            <p class="tab-links" onclick="opentab('education')"> Education </p>
+                        </div>
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>UI/UX</span><br>Designing Web/Apps Interfaces</li>
+                                <li><span>Web Development</span><br>Web App Development</li>
+                                <li><span>App Development</span><br>Building Android/IOS Apps</li>
+                            </ul>
+
+                        </div>
+
+                        <div class="tab-contents" id="experience">
+                            <ul>
+                                <li><span>2023 - Current</span><br>UI/UX Design Training at WIT</li>
+                                <li><span>2018 - 2021</span><br>Software Engineer at Lincom TsL</li>
+                                <li><span>2021 - 2022</span><br>Frontend Developer at KST</li>
+                            </ul>
+
+                        </div>
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>2010 - 2014</span><br>Bachelor of Science in Mathematics at Sai Gon University</li>
+                                <li><span>2018 - 2023</span><br>Bachelor of Science in Computer Science at Wentworth Institute of Technology</li>
+                                <li><span>2023 - 2025</span><br>Master of Science in Data Science at Boston University</li>
+                            </ul>
+
+                        </div>
+                    </div>
+                </div>
+           </div>
+        </div>
+<!-----------------Services-----------------> 
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Design</h2>
+                <p>Building full-stack web applications and mobile application for all customers.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-crop"></i>
+                <h2>UI/UX Design</h2>
+                <p>Building user interfaces and graphics design for all customers.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-apple"></i>
+                <h2>App Design</h2>
+                <p>Building Android and IOS applications for all customers.</p>
+                <a href="#">Learn more</a>
+            </div>
+        </div>
+    </div>
+</div>   
+<!----------------Porfolio--------------->
+<div id="porfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+    </div>
+    <div class="work-list">
+        <div class="work">
+            <img  src="images/work-1.jpg"> 
+            <div class="layer">
+                <h3>Social Media App</h3>
+                <p>The app connects you to the talented people around the world.
+                    Dowload it from play store now.
+                </p>
+                <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div>
+        </div>
+        <div class="work">
+            <img src="images/work-2.jpg"> 
+            <div class="layer">
+                <h3>Music App</h3>
+                <p>The app connects you to the talented people around the world.
+                    Dowload it from play store now.
+                </p>
+                <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div>
+        </div>
+        <div class="work">
+            <img src="images/work-3.jpg"> 
+            <div class="layer">
+                <h3>Online Shopping App</h3>
+                <p>The app connects you to the talented people around the world.
+                    Dowload it from play store now.
+                </p>
+                <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div>
+        </div>
+    </div>
+    <a href="#" class="btn">See More</a>
+</div>
+<!-------------------Contact-------------------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-regular fa-envelope"></i> tongttrinh92@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i> 8572259327</p>
+                <div class="social-icon">
+                    <a href="https://facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://twitter.com/"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="https://linkedin.com/"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://youtube.com/"><i class="fa-brands fa-youtube"></i></a>
+                </div>
+                <a href="images/Daniel+Tong-Trinh-Resume.docx" class="btn btn2" download>Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form>
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" id="" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                
+            </div>
+        </div>
+    </div>
+<div class="copyright">
+    <p>Copyright @ Daniel. Made It By <i class="fa-solid fa-heart"></i> with Easy Tutorials.</p>
+</div>
+</div>
+        <script>
+            var tablinks=document.getElementsByClassName("tab-links");
+            var tabcontents=document.getElementsByClassName("tab-contents");
+
+            function opentab(tabname)
+            {   
+                for (tablink of tablinks)
+            {
+                tablink.classList.remove("active-link");
+            }
+            for (tabcontent of tabcontents)
+            {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+           
+            }
+        </script>
+    </body>
+</html>
